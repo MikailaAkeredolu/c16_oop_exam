@@ -1,4 +1,5 @@
 # UML to OOP
+- Open book, Open notes, Can Google, No AI Tools, Share Screen, and be on camera !!!
 
 ![Screenshot 2024-10-07 at 5 54 46 PM](https://github.com/user-attachments/assets/09a88ba5-e97d-4098-a3a3-816d0ac3bcf6)
 ### Use the UML above to answer the questions in your main method
@@ -12,22 +13,30 @@
 - **Sample Expected output** ```Subtotal of clothing items: $30.0```
 
 >  Create 2 different student objects with the info below:
- - student1's name is Mike, he wears a large and has the same shoppingBag of clothing items.
- - student2's name is Jane, she wears a Small and also has the same shoppingBag of clothing items.
+
+ **Student1's info**
+ - Name: Mike.
+ - Size: large
+ - shoppingBag: list of clothing items.
+
+ **Student2's info**
+  - Name: Jane.
+ - Size: small
+ - shoppingBag: list of clothing items.
    
  > Create an array named **listOfStudents** that stores our two students (student1 and student2)
- - Use the **printInfo** method to print out each student's info for every student stored in the **listOfStudents** 
+ - Use the **printInfo** method to quickly print out each student's info for all students stored in the **listOfStudents** 
  - **Sample Expected output**
    ```
       Student ID 1 :  Student Name: Mike
       Student ID 2 :  Student Name: Jane
    ```
 
-> Invoke the **printStudentCounter** to display the number of studnet objects that have been created thus far
+> Invoke the **printStudentCounter** to display the number of student objects that have been created thus far
 - **Sample Expected output** ```We have created 2 students in our database successfully ```
 
 
-> Modify your HourlyEmployee class by overloading the constructor to include an hourly employees's hourlyPay and hoursWorked when instantiated
+> Go back and modify your HourlyEmployee class by overloading the constructor to include an hourly employees's hourlyPay and hoursWorked when instantiated
 - Use the overloaded constructor to create a new hourlyEmployee
   - Name: Alex
   - Hours Worked: 40 
@@ -37,7 +46,7 @@
 - Now inside the main method, attempt to set the hourly employee's hoursWorked to a negative number
 - **Sample Expected Output** ```hoursWorked cannot be a negative number```
   
-> Modify your Manager class by overloading the constructor to include a manger's salary when instantiated
+> Go back and modify your Manager class by overloading the constructor to include a manger's salary when instantiated
 - Use the overloaded constructor to create a new manager
   - Name: Terry
   - Salary: $100k 
@@ -47,7 +56,7 @@
   
 - Now inside the main method, print out the manager's info with the **printIfo** method
 - **Sample Expected Output** 
-```Terry makes 10000.0 and his shopping bag consist of the following clothing items: Levi Jeans T-shirt Hat```
+```Terry makes 10000.0 and his shopping bag consist of the following clothing items: Jeans T-shirt Hat```
 
 
 > Invoke the **printPriceAfterDiscount** method, and print out how much Alex (hourlyEmployee) will pay for clothingItem1 after discounts.
