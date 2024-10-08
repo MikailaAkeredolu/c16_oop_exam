@@ -96,6 +96,8 @@ Manager qualifies for  a discount of 15.00%
  - ```Rick is a manager therefore is entitled to a discount of 15%```
 
 > Finally, invoke the **canGetFired** on the same customerToEmployee object.
- -  - **Sample Expected Output** ``` true ```
+  - **Sample Expected Output** ``` true ```
+
+#### Make your repo private and DM it to me by 12:55pm. 
 
 
