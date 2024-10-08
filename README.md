@@ -2,7 +2,7 @@
 - Open book, Open notes, Can Google, No AI Tools, Share Screen, and be on camera !!!
 
 ![Screenshot 2024-10-07 at 5 54 46 PM](https://github.com/user-attachments/assets/09a88ba5-e97d-4098-a3a3-816d0ac3bcf6)
-### Use the UML above to answer the questions in your main method
+### Use the UML above to answer most of the questions inside your main method
 
 > Create an array named **shoppingBag** that contains the 3 clothing items below:
  - clothingItem1 is a small pair of Jeans that cost $20.00
@@ -59,11 +59,11 @@
 ```Terry makes 10000.0 and his shopping bag consist of the following clothing items: Jeans T-shirt Hat```
 
 
-> Invoke the **printPriceAfterDiscount** method, and print out how much Alex (hourlyEmployee) will pay for clothingItem1 after discounts.
+> Invoke the **printPriceAfterDiscount** method, to print out how much Alex (hourlyEmployee) will pay for clothingItem1 after discounts. Print the result inside your main method as seen below:
 - **Sample Expected Output** ```Jeans will cost Alex : $18.0```
 
 
-> Leverage the **checkFitting** method to check if a clothing item fits a customer
+> Leverage the **checkFitting** method to check if a clothing item fits a customer. Print the result inside your main method as seen below:
 - **Sample Expected Output** ```It is true that the Hat fits Mike```
 
 > Create a new Business object with the following info:
@@ -76,10 +76,10 @@
 - In our program, businesses only pay tax on earnings over $100k.
 - Make sure you override your paysTaxOnEarnings method to reflect this fact!
 
-> Call the **paysTaxOnEarnings** method to check if the business above is taxable or not.
+> Invoke the **paysTaxOnEarnings** method to check if the business above is taxable or not. Print the result inside your main method as seen below:
  - **Sample Expected Output** ```Is this biz taxable?: true ```
 
-> Create an array named **payable** to store all the types of entities that are payable
+> Inside the main method, create an array named **payable** to store all the types of entities that are payable
 - Invoke the **printClassNamesOfPayableEntities** method to print out the class names of all payable entities.
  - **Sample Expected Output** 
 ```
