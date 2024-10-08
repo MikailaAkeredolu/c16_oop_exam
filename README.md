@@ -88,25 +88,25 @@ Manager
 Business
 ```
 
-> Use the **checkCustomerDiscount** method to check for how much of a discount a student, hourly employee, and manager qualifies for in our app.
+> Use the **checkCustomerDiscount** method to check for how much of a discount a student, hourly employee, and manager qualifies for in our app. ***Curve ball -> Note that the manager's discount is formatted in 2 decimals***
  - **Sample Expected Output**  
 ```
 Student qualifies for a discount of 5.0%
 HourlyEmployee qualifies for a discount of 10.0%
 Manager qualifies for  a discount of 15.00%
 ```
-***Curve ball -> Note that the manager's discount is formatted in 2 decimals***
+
 
 > Create a **new Manager object but of type Customer** named customerToEmployee with the following info:
   -  Name: Rick
   -  Size: small
   -  shoppingBag: list of clothing items.
     
-> Call the **managerDiscount** method on the customerToEmployee to print out the discount as formatted below:
+> Call the **managerDiscount** method on the customerToEmployee object to print out the discount as formatted below:
  - **Sample Expected Output**
  - ```Rick is a manager therefore is entitled to a discount of 15%```
 
-> Finally, invoke the **canGetFired** on the same customerToEmployee object.
+> Finally, invoke the **canGetFired** method on the same customerToEmployee instance that we just created above.
   - **Sample Expected Output** ``` true ```
 
 #### Make your repo private and DM it to me by 12:55pm. 
