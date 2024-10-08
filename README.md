@@ -76,10 +76,26 @@ HourlyEmployee
 Manager
 Business
 ```
-> Use the **checkCustomerDiscount** method to check for student and employee discounts one after the other.
- - **Sample Expected Output** 
+
+> Use the **checkCustomerDiscount** method to check for how much of a discount a student, hourly employee, and manager qualifies for in our app.
+ - **Sample Expected Output**  
 ```
 Student qualifies for a discount of 5.0%
 HourlyEmployee qualifies for a discount of 10.0%
+Manager qualifies for  a discount of 15.00%
 ```
+***Curve ball -> Note that the manager's discount is formatted in 2 decimals***
+
+> Create a **new Manager object but of type Customer** named customerToEmployee with the following info:
+  -  Name: Rick
+  -  Size: small
+  -  shoppingBag: list of clothing items.
+    
+> Call the **managerDiscount** method on the customerToEmployee to print out the discount as formatted below:
+ - **Sample Expected Output**
+ - ```Rick is a manager therefore is entitled to a discount of 15%```
+
+> Finally, invoke the **canGetFired** on the same customerToEmployee object.
+ -  - **Sample Expected Output** ``` true ```
+
 
