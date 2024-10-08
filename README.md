@@ -63,7 +63,7 @@
 - **Sample Expected Output** ```Jeans will cost Alex : $18.0```
 
 
-> Leverage the **checkFitting** method twice to check if a clothing item fits a customer
+> Leverage the **checkFitting** method to check if a clothing item fits a customer
 - **Sample Expected Output** ```It is true that the Hat fits Mike```
 
 > Create a new Business object with the following info:
@@ -72,7 +72,9 @@
      - QtySupplied: 10000
      - productPrice: 20
        
-- **IMPORTANT** : In our program, businesses only pay tax on earnings over $100k
+- **IMPORTANT** :
+- In our program, businesses only pay tax on earnings over $100k.
+- Make sure you override your paysTaxOnEarnings method to reflect this fact!
 
 > Call the **paysTaxOnEarnings** method to check if the business above is taxable or not.
  - **Sample Expected Output** ```Is this biz taxable?: true ```
