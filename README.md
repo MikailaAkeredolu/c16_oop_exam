@@ -109,6 +109,6 @@ Manager qualifies for  a discount of 15.00%
 > Finally, invoke the **canGetFired** method on the same customerToEmployee instance that we just created above.
   - **Sample Expected Output** ``` true ```
 
-#### Make your repo private and DM it to me by 12:55pm. 
+#### Make your repo private and DM it to me by 1:05pm. 
 
 
