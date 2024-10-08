@@ -12,7 +12,7 @@
 - **Sample Expected output** ```Subtotal of clothing items: $30.0```
 
 >  Create 2 different student objects with the info below:
- - student1's name is Mike, he wears a Large and has the same shoppingBag of clothing items.
+ - student1's name is Mike, he wears a large and has the same shoppingBag of clothing items.
  - student2's name is Jane, she wears a Small and also has the same shoppingBag of clothing items.
    
  > Create an array named **listOfStudents** that stores our two students (student1 and student2)
@@ -26,14 +26,60 @@
 > Invoke the **printStudentCounter** to display the number of studnet objects that have been created thus far
 - **Sample Expected output** ```We have created 2 students in our database successfully ```
 
+
 > Modify your HourlyEmployee class by overloading the constructor to include an hourly employees's hourlyPay and hoursWorked when instantiated
-- Use the overloaded constructor to create a new hourlyEmployee named Alex, that works 40hours a week and makes $20 per hour. Alex's clothing size is a small, and she too has the same list of clothing items in the shoppingBag.
+- Use the overloaded constructor to create a new hourlyEmployee
+  - Name: Alex
+  - Hours Worked: 40 
+  - HourlyWage: $20 per hour.
+  - Size: small
+  - shoppingBag: list of clothing items.
+- Now inside the main method, attempt to set the hourly employee's hoursWorked to a negative number
+- **Sample Expected Output** ```hoursWorked cannot be a negative number```
   
 > Modify your Manager class by overloading the constructor to include a manger's salary when instantiated
-- Use the overloaded constructor to create a new manager named Terry, that makes $100k, his size is a large, and he too has the same list of clothing items in his shoppingBag
+- Use the overloaded constructor to create a new manager
+  - Name: Terry
+  - Salary: $100k 
+  - Size: large
+  - shoppingBag: list of clothing items.
+
   
 - Now inside the main method, print out the manager's info with the **printIfo** method
 - **Sample Expected Output** 
+```Terry makes 10000.0 and his shopping bag consist of the following clothing items: Levi Jeans T-shirt Hat```
+
+
+> Invoke the **printPriceAfterDiscount** method, and print out how much Alex (hourlyEmployee) will pay for clothingItem1 after discounts.
+- **Sample Expected Output** ```Jeans will cost Alex : $18.0```
+
+
+> Leverage the **checkFitting** method twice to check if a clothing item fits a customer
+- **Sample Expected Output** ```It is true that the Hat fits Mike```
+
+> Create a new Business object with the following info:
+  - Leverage all 3 properties in your constructor
+     - Business Name: Acme
+     - QtySupplied: 10000
+     - productPrice: 20
+       
+- **IMPORTANT** : In our program, businesses only pay tax on earnings over $100k
+
+> Call the **paysTaxOnEarnings** method to check if the business above is taxable or not.
+ - **Sample Expected Output** ```Is this biz taxable?: true ```
+
+> Create an array named **payable** to store all the types of entities that are payable
+- Invoke the **printClassNamesOfPayableEntities** method to print out the class names of all payable entities.
+ - **Sample Expected Output** 
 ```
-Terry makes 10000.0 and his shopping bag consist of the following clothing items: Levi Jeans T-shirt Hat 
+HourlyEmployee
+Manager
+Business
 ```
+> Use the **checkCustomerDiscount** method to check for student and employee discounts one after the other.
+ - **Sample Expected Output** 
+```
+Student qualifies for a discount of 5.0%
+HourlyEmployee qualifies for a discount of 10.0%
+```
+
